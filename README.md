@@ -6,7 +6,7 @@ Made by Bolarian Dev and BlankFaceDJ
 # Plans
 Our plans are to make this mod a giant adventure where you can choose the path of evil or kindness! You can even choose none of those two!
 TODO:
-- Good Ores
+- Kind Ores
 - Evil Ores
 - Neutral Ores
 - Level System
