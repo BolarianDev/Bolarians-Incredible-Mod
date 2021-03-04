@@ -1,0 +1,13 @@
+{
+  "group": "bolarianincrediblemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bolarianincrediblemod:basicusoreblock"
+    }
+  ],
+  "result": {
+    "item": "bolarianincrediblemod:basicusgem",
+    "count": 9
+  }
+}

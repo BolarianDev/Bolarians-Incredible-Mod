@@ -1,0 +1,26 @@
+{
+  "group": "bolarianincrediblemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    "2": {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    "3": {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    "5": {
+      "item": "bolarianincrediblemod:basicusgem"
+    }
+  },
+  "result": {
+    "item": "bolarianincrediblemod:basicusarmorboots",
+    "count": 1
+  }
+}

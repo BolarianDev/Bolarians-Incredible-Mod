@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bolarianincrediblemod:blocks/basicus_ore_block",
+    "particle": "bolarianincrediblemod:blocks/basicus_ore_block"
+  }
+}
