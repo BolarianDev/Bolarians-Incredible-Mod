@@ -1,0 +1,40 @@
+{
+  "group": "bolarianincrediblemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 2
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 32767
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    }
+  ],
+  "result": {
+    "item": "bolarianincrediblemod:kindgem",
+    "count": 5
+  }
+}

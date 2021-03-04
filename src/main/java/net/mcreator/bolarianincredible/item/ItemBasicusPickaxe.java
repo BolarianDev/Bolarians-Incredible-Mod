@@ -29,13 +29,13 @@ public class ItemBasicusPickaxe extends ElementsBolariansIncredibleMod.ModElemen
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("BASICUSPICKAXE", 6, 1164, 12f, 2f, 42)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("BASICUSPICKAXE", 3, 1164, 12f, 2f, 42)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 6);
+				ret.put("pickaxe", 3);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("basicuspickaxe").setRegistryName("basicuspickaxe").setCreativeTab(CreativeTabs.TOOLS));

@@ -46,8 +46,8 @@ public class ItemBasicusAxe extends ElementsBolariansIncredibleMod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("BASICUSAXE", 6, 1164, 12f, 2f, 42), effective_items_set);
-			this.attackDamage = 2f;
+			super(EnumHelper.addToolMaterial("BASICUSAXE", 6, 1164, 12f, 9.3f, 42), effective_items_set);
+			this.attackDamage = 9.3f;
 			this.attackSpeed = -3f;
 		}
 

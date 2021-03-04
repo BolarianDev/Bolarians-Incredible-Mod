@@ -1,6 +1,8 @@
 advancements.youinstalledthis.title=You Installed This!
+item.evilgem.name=Evil Gem
 item.basicussword.name=Basicus Sword
 item.basicusshovel.name=Basicus Shovel
+item.kindgem.name=Kind Gem
 item.basicusgem.name=Basicus
 item.basicusarmorlegs.name=Basicus Leggings
 item.basicusarmorboots.name=Basicus Boots
@@ -12,3 +14,4 @@ item.basicusarmorbody.name=Basicus Chestplate
 advancements.youinstalledthis.descr=Install the mod... and that's everything?
 item.basicusaxe.name=Basicus Axe
 item.basicushoe.name=Basicus Hoe
+item.neutralgem.name=Neutral Gem

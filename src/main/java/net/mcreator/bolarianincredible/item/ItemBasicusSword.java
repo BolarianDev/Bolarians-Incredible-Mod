@@ -34,7 +34,7 @@ public class ItemBasicusSword extends ElementsBolariansIncredibleMod.ModElement 
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("BASICUSSWORD", 6, 1164, 12f, 2f, 42)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("BASICUSSWORD", 3, 1164, 6.8f, 2f, 42)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -49,7 +49,7 @@ public class ItemBasicusSword extends ElementsBolariansIncredibleMod.ModElement 
 
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("sword", 6);
+				ret.put("sword", 3);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("basicussword").setRegistryName("basicussword").setCreativeTab(CreativeTabs.COMBAT));

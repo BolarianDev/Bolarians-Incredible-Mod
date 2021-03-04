@@ -1,0 +1,37 @@
+{
+  "group": "bolarianincrediblemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "bolarianincrediblemod:basicusgem"
+    }
+  ],
+  "result": {
+    "item": "bolarianincrediblemod:neutralgem",
+    "count": 5
+  }
+}

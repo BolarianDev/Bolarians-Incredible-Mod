@@ -176,6 +176,54 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EvilGem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EvilGemRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "KindGem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "KindGemRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NeutralGem",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NeutralGemRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -183,8 +231,10 @@
   "language_map": {
     "en_us": {
       "advancements.youinstalledthis.title": "You Installed This!",
+      "item.evilgem.name": "Evil Gem",
       "item.basicussword.name": "Basicus Sword",
       "item.basicusshovel.name": "Basicus Shovel",
+      "item.kindgem.name": "Kind Gem",
       "item.basicusgem.name": "Basicus",
       "item.basicusarmorlegs.name": "Basicus Leggings",
       "item.basicusarmorboots.name": "Basicus Boots",
@@ -195,7 +245,8 @@
       "item.basicusarmorbody.name": "Basicus Chestplate",
       "advancements.youinstalledthis.descr": "Install the mod... and that\u0027s everything?",
       "item.basicusaxe.name": "Basicus Axe",
-      "item.basicushoe.name": "Basicus Hoe"
+      "item.basicushoe.name": "Basicus Hoe",
+      "item.neutralgem.name": "Neutral Gem"
     }
   },
   "workspaceSettings": {

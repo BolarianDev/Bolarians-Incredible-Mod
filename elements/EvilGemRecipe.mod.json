@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BasicusGem"
+      },
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "CUSTOM:BasicusGem"
+      },
+      {
+        "value": "Items.ROTTEN_FLESH"
+      },
+      {
+        "value": "CUSTOM:BasicusGem"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "CUSTOM:BasicusGem"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "CUSTOM:BasicusGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EvilGem"
+    },
+    "name": "evilgemrecipe",
+    "namespace": "mod"
+  }
+}
