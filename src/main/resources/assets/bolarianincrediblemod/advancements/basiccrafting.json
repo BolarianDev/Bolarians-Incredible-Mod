@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "bolarianincrediblemod:basicusgem"
+    },
+    "title": {
+      "translate": "advancements.basiccrafting.title"
+    },
+    "description": {
+      "translate": "advancements.basiccrafting.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basiccrafting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bolarianincrediblemod:basicusgem",
+            "count": {
+              "min": 2,
+              "max": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "bolarianincrediblemod:youinstalledthis"
+}

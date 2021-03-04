@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "bolarianincrediblemod:neutralgem"
+    },
+    "title": {
+      "translate": "advancements.neutraladv.title"
+    },
+    "description": {
+      "translate": "advancements.neutraladv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "neutraladv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bolarianincrediblemod:neutralgem",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "bolarianincrediblemod:youinstalledthis"
+}

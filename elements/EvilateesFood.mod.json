@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "evilatees_bowl",
+    "customModelName": "Normal",
+    "name": "Evilatees Food",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 7,
+    "saturation": 1.6,
+    "eatingSpeed": 48,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "EvilateesFoodFoodEaten"
+    }
+  }
+}

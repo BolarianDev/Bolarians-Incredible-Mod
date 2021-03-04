@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "GUI": 1
+  },
   "mod_elements": [
     {
       "name": "YouInstalledThis",
@@ -224,6 +226,84 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "KindnessAdv",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EvilAdv",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NeutralAdv",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BasicCrafting",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EvilateesFoodFoodEaten",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvilateesFood",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HardCrafting",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
     }
   ],
   "variable_elements": [],
@@ -231,22 +311,31 @@
   "language_map": {
     "en_us": {
       "advancements.youinstalledthis.title": "You Installed This!",
-      "item.evilgem.name": "Evil Gem",
+      "advancements.neutraladv.title": "Neutral Path",
       "item.basicussword.name": "Basicus Sword",
       "item.basicusshovel.name": "Basicus Shovel",
       "item.kindgem.name": "Kind Gem",
-      "item.basicusgem.name": "Basicus",
-      "item.basicusarmorlegs.name": "Basicus Leggings",
-      "item.basicusarmorboots.name": "Basicus Boots",
+      "advancements.basiccrafting.title": "Basic Crafting",
+      "item.evilateesfood.name": "Evilatees Food",
+      "advancements.neutraladv.descr": "You are a neutral person.",
+      "advancements.eviladv.descr": "You are an evil person.",
+      "advancements.eviladv.title": "Evil Path",
       "tile.basicusore.name": "Basicus Ore",
-      "tile.basicusoreblock.name": "Block of Basicus",
       "item.basicuspickaxe.name": "Basicus Pickaxe",
       "item.basicusarmorhelmet.name": "Basicus Helmet",
+      "item.basicusaxe.name": "Basicus Axe",
+      "item.evilgem.name": "Evil Gem",
+      "item.basicusgem.name": "Basicus",
+      "item.basicusarmorlegs.name": "Basicus Leggings",
+      "advancements.kindnessadv.title": "Kindness Path",
+      "item.basicusarmorboots.name": "Basicus Boots",
+      "tile.basicusoreblock.name": "Block of Basicus",
+      "advancements.basiccrafting.descr": "Obtain 2 of some Basicus Ores.",
       "item.basicusarmorbody.name": "Basicus Chestplate",
       "advancements.youinstalledthis.descr": "Install the mod... and that\u0027s everything?",
-      "item.basicusaxe.name": "Basicus Axe",
       "item.basicushoe.name": "Basicus Hoe",
-      "item.neutralgem.name": "Neutral Gem"
+      "item.neutralgem.name": "Neutral Gem",
+      "advancements.kindnessadv.descr": "You are a kind person."
     }
   },
   "workspaceSettings": {
